@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Leipziger Messe', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.body_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+iframe {
+    height: 100vh;
+}
+
+.header_2 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.header_text {
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(98, 98, 102);
+    box-shadow: 0 2px 18px rgb(0, 0, 0);
+}
+
+.footer_1p {
+    font-size: 38px;
+    color: white;
+    font-weight: 600;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+.number img {
+    width: 70px;
+}
+
+.logo {
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 800px;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_bottom {
+    background-color: rgb(219, 117, 21);
+    text-align: center;
+    padding: 15px 0;
+    width: 240px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+}
+
+.login_bottom a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login_bottom_1 {
+    margin-top: 2%;
+    background-color: rgb(219, 117, 21);
+    text-align: center;
+    padding: 15px 0;
+    width: 240px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+}
+
+.login_bottom_1 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(98, 98, 102);
+    box-shadow: 0 2px 18px rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    nav a {
+        text-align: center;
+        border: 1px solid orange;
+        background-color: rgb(98, 98, 102);
+        border-radius: 20px;
+        width: 240px;
+        padding: 2%;
+        margin-top: 5%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .login_bottom_1 {
+        margin-top: 5%;
+    }
+
+    .main_left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .label_down {
+        margin-left: 5px;
+        z-index: 2;
+    }
+
+    .main_right {
+        margin: 0 2%;
+        margin-top: 15%;
+    }
+
+    .card_1 {
+        margin: 2% 5%;
+        padding: 4% 0;
+    }
+
+    main {
+        padding-bottom: 10%;
+        flex-wrap: wrap;
+        margin: 0 1%;
+    }
+
+    .footer_1p {
+        font-size: 36px;
+    }
+
+    .number img {
+        display: none;
+    }
+
+    .number {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        margin-top: -10%;
+        position: relative;
+    }
+
+}
